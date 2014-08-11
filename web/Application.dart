@@ -12,7 +12,7 @@ void main() {
   initPolymer().run(() {
     applicationFactory()
     //.addModule(new AppModule())
-    .addMdoule(new NodeBindModule())
+    .addModule(new NodeBindModule())
     .run();
   });
 }
