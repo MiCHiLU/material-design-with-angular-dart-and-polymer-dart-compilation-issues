@@ -1,6 +1,6 @@
 name: blah
 dependencies:
-angular: 0.12.0
+  angular: 0.12.0
   angular_node_bind: any
   shadow_dom: any
   browser: any
