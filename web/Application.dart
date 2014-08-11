@@ -11,7 +11,7 @@ import 'dart:mirrors';
 void main() {
   initPolymer().run(() {
     applicationFactory()
-    .addModule(new AppModule())
+    //.addModule(new AppModule())
     .addMdoule(new NodeBindModule())
     .run();
   });
